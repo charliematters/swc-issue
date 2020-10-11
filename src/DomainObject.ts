@@ -1,5 +1,6 @@
 import { pick } from "lodash";
 import { makeObservable, observable } from "mobx";
+
 type DomainObjectFields = Pick<DomainObject, "foo" | "bar">;
 
 export default class DomainObject {

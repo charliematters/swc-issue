@@ -1,4 +1,4 @@
-import  DomainObject  from"./DomainObject"
+import DomainObject from "./DomainObject";
 
 describe("DomainObject", () => {
   it("creates a domain object", () => {
@@ -8,8 +8,8 @@ describe("DomainObject", () => {
   });
 
   it("creates a domain object with data", () => {
-    const object = new DomainObject({foo:'foo', bar:'bar'});
-    expect(object.foo).toBe('foo');
-    expect(object.bar).toBe('bar');
+    const object = new DomainObject({ foo: "foo", bar: "bar" });
+    expect(object.foo).toBe("foo");
+    expect(object.bar).toBe("bar");
   });
 });

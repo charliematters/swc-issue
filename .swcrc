@@ -1,10 +1,11 @@
 {
     "jsc": {
-        "externalHelpers": false,
         "parser": {
             "syntax": "typescript",
-            "tsx": true,
             "decorators": true
         }
+    },
+    "module": {
+        "type": "commonjs"
     }
 }
